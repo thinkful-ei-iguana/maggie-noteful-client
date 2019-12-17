@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "hind", sans-serif;
+  background-color: rgba(39, 34, 39, 0.863);
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 48px;
+}
+
+main,
+section {
+  text-align: center;
+}
+
+main {
+  width: 65%;
+  border: 2px solid whitesmoke;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+section {
+  width: 35%;
+  border: 2px solid whitesmoke;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+}
+#wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.note {
+  border: 2px solid whitesmoke;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.Notes {
+  width: 60%;
+}
+.Folder {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid whitesmoke;
+}
+
+header {
+  height: 120px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+header a {
+  text-decoration: none;
+}
+button {
+  padding: 3px;
+}
+
+.add-note {
+  border: 2px solid whitesmoke;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 40%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 250px;
+  padding: 10px;
+}
+
+select {
+  width: 25%;
+}
+
+.form-buttons {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+}
+.form-buttons button {
+  width: 45%;
+}
+
+.add-folder {
+  border: 2px solid whitesmoke;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
